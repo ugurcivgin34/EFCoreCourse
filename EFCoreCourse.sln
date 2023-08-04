@@ -11,9 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VeriKaliciligi_EfCoreIleVer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VeriKaciligi_EfCoreIleVeriGüncellemeDetayları", "VeriKaciligi_EfCoreIleVeriGüncellemeDetayları\VeriKaciligi_EfCoreIleVeriGüncellemeDetayları.csproj", "{77F91A86-4E62-4B64-B606-4812F01119DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeriKaliciligi_EFCoreIleVeriSilmeDetaylari", "VeriKaliciligi_EFCoreIleVeriSilmeDetaylari\VeriKaliciligi_EFCoreIleVeriSilmeDetaylari.csproj", "{2356E47C-F2F5-4D44-80F7-18EDE40FA964}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VeriKaliciligi_EFCoreIleVeriSilmeDetaylari", "VeriKaliciligi_EFCoreIleVeriSilmeDetaylari\VeriKaliciligi_EFCoreIleVeriSilmeDetaylari.csproj", "{2356E47C-F2F5-4D44-80F7-18EDE40FA964}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Querying", "Querying\Querying.csproj", "{31A1FB47-7E0E-40AE-847C-4ED8CFDA5926}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Querying", "Querying\Querying.csproj", "{31A1FB47-7E0E-40AE-847C-4ED8CFDA5926}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChangeTracker", "ChangeTracker\ChangeTracker.csproj", "{F6D99F67-FB6B-4221-BC31-D7D9E3DE3B5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracking", "Tracking\Tracking.csproj", "{3FE790AC-A519-4605-9DF9-A0F8350E7048}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{31A1FB47-7E0E-40AE-847C-4ED8CFDA5926}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31A1FB47-7E0E-40AE-847C-4ED8CFDA5926}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31A1FB47-7E0E-40AE-847C-4ED8CFDA5926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D99F67-FB6B-4221-BC31-D7D9E3DE3B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D99F67-FB6B-4221-BC31-D7D9E3DE3B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D99F67-FB6B-4221-BC31-D7D9E3DE3B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D99F67-FB6B-4221-BC31-D7D9E3DE3B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FE790AC-A519-4605-9DF9-A0F8350E7048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FE790AC-A519-4605-9DF9-A0F8350E7048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FE790AC-A519-4605-9DF9-A0F8350E7048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FE790AC-A519-4605-9DF9-A0F8350E7048}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
