@@ -59,7 +59,7 @@ public class ETicaretContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=localhost, 1433;Database=ETicaretDB;User ID=SA;Password=1q2w3e4r+!");
+        optionsBuilder.UseSqlServer("Server=ISBARGNT271007;Database=TestDb123;Trusted_Connection=True;TrustServerCertificate=True;");
         optionsBuilder.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
     }
 }
