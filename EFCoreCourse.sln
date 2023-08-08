@@ -21,17 +21,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tracking", "Tracking\Tracki
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Relationships", "Relationships\Relationships.csproj", "{D81BDA00-7F40-4FD8-9C23-FD13782E1CE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One_to_One_Relationship", "One_to_One_Relationship\One_to_One_Relationship.csproj", "{1CAC048B-98C8-45D3-AFC8-73AC5D45F38A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "One_to_One_Relationship", "One_to_One_Relationship\One_to_One_Relationship.csproj", "{1CAC048B-98C8-45D3-AFC8-73AC5D45F38A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "One_to_Many_Relationship", "One_to_Many_Relationship\One_to_Many_Relationship.csproj", "{580ECDB2-7BD5-4B9C-8B69-9DA7D2FFF7A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "One_to_Many_Relationship", "One_to_Many_Relationship\One_to_Many_Relationship.csproj", "{580ECDB2-7BD5-4B9C-8B69-9DA7D2FFF7A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Many_to_Many_Relationship", "Many_to_Many_Relationship\Many_to_Many_Relationship.csproj", "{03D2B581-A691-4785-AD32-29A5894FDF58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Many_to_Many_Relationship", "Many_to_Many_Relationship\Many_to_Many_Relationship.csproj", "{03D2B581-A691-4785-AD32-29A5894FDF58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IliskiselSenaryolardaVeriEklemeDavranislari", "IliskiselSenaryolardaVeriEklemeDavranislari\IliskiselSenaryolardaVeriEklemeDavranislari.csproj", "{9F66F80E-DD82-45D5-8E7D-A38C23DCDCDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IliskiselSenaryolardaVeriEklemeDavranislari", "IliskiselSenaryolardaVeriEklemeDavranislari\IliskiselSenaryolardaVeriEklemeDavranislari.csproj", "{9F66F80E-DD82-45D5-8E7D-A38C23DCDCDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IliskiselSenaryolardaVeriGuncellemeDavranislari", "IliskiselSenaryolardaVeriGuncellemeDavranislari\IliskiselSenaryolardaVeriGuncellemeDavranislari.csproj", "{9D43E1B2-1AF0-4A83-8DE0-C4F6CF87C9F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IliskiselSenaryolardaVeriGuncellemeDavranislari", "IliskiselSenaryolardaVeriGuncellemeDavranislari\IliskiselSenaryolardaVeriGuncellemeDavranislari.csproj", "{9D43E1B2-1AF0-4A83-8DE0-C4F6CF87C9F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IliskiselSenaryolardaVeriSilmeDavranislari", "IliskiselSenaryolardaVeriSilmeDavranislari\IliskiselSenaryolardaVeriSilmeDavranislari.csproj", "{26635E98-D0EE-4674-9F59-20014A5E0992}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IliskiselSenaryolardaVeriSilmeDavranislari", "IliskiselSenaryolardaVeriSilmeDavranislari\IliskiselSenaryolardaVeriSilmeDavranislari.csproj", "{26635E98-D0EE-4674-9F59-20014A5E0992}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backing_Fields", "Backing_Fields\Backing_Fields.csproj", "{1D3FF222-E042-455D-B234-33AD4C787649}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shadow_Property", "Shadow_Property\Shadow_Property.csproj", "{7CB8BC9A-A9CD-470E-9712-887ACA6CAFA6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{26635E98-D0EE-4674-9F59-20014A5E0992}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26635E98-D0EE-4674-9F59-20014A5E0992}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26635E98-D0EE-4674-9F59-20014A5E0992}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D3FF222-E042-455D-B234-33AD4C787649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D3FF222-E042-455D-B234-33AD4C787649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D3FF222-E042-455D-B234-33AD4C787649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D3FF222-E042-455D-B234-33AD4C787649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB8BC9A-A9CD-470E-9712-887ACA6CAFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB8BC9A-A9CD-470E-9712-887ACA6CAFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB8BC9A-A9CD-470E-9712-887ACA6CAFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB8BC9A-A9CD-470E-9712-887ACA6CAFA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
