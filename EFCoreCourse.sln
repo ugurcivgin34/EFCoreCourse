@@ -61,29 +61,37 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Explicit_Loading", "Explici
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lazy_Loading", "Lazy_Loading\Lazy_Loading.csproj", "{A5D14BDF-18C7-4D8D-BD19-0DE4CD637EB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complex_Relational_Queries", "Complex_Relational_Queries\Complex_Relational_Queries.csproj", "{775FDFF4-91E8-45EB-89B4-0B1B1EFBE8F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Complex_Relational_Queries", "Complex_Relational_Queries\Complex_Relational_Queries.csproj", "{775FDFF4-91E8-45EB-89B4-0B1B1EFBE8F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sql_Queries", "Sql_Queries\Sql_Queries.csproj", "{311298A0-BE32-4E24-B047-98F12FBD66EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sql_Queries", "Sql_Queries\Sql_Queries.csproj", "{311298A0-BE32-4E24-B047-98F12FBD66EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Views", "Views\Views.csproj", "{52597103-F509-40CF-98AD-57AE33D79A40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Views", "Views\Views.csproj", "{52597103-F509-40CF-98AD-57AE33D79A40}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stored_Procedures", "Stored_Procedures\Stored_Procedures.csproj", "{775040CC-72C5-4530-A924-EB60EAB0CCB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stored_Procedures", "Stored_Procedures\Stored_Procedures.csproj", "{775040CC-72C5-4530-A924-EB60EAB0CCB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functions", "Functions\Functions.csproj", "{831DAFE7-3930-4F76-B1E6-54FB9A7C6D4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Functions", "Functions\Functions.csproj", "{831DAFE7-3930-4F76-B1E6-54FB9A7C6D4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCoreAdoNet", "EfCoreAdoNet\EfCoreAdoNet.csproj", "{FB0FF790-3A1E-4431-BC62-E1B0D0C16ABB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EfCoreAdoNet", "EfCoreAdoNet\EfCoreAdoNet.csproj", "{FB0FF790-3A1E-4431-BC62-E1B0D0C16ABB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Keyless_Entity_Types", "Keyless_Entity_Types\Keyless_Entity_Types.csproj", "{F4D6DDBA-A26F-4877-9236-1CE06CB6F47C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Keyless_Entity_Types", "Keyless_Entity_Types\Keyless_Entity_Types.csproj", "{F4D6DDBA-A26F-4877-9236-1CE06CB6F47C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF_Core_Logging", "EF_Core_Logging\EF_Core_Logging.csproj", "{AA08995B-6995-446C-BC69-FBBCF19C65FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF_Core_Logging", "EF_Core_Logging\EF_Core_Logging.csproj", "{AA08995B-6995-446C-BC69-FBBCF19C65FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Query_Tag", "Query_Tag\Query_Tag.csproj", "{E8847A11-1A87-402A-93AD-A589F2653839}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Query_Tag", "Query_Tag\Query_Tag.csproj", "{E8847A11-1A87-402A-93AD-A589F2653839}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Query_Log", "Query_Log\Query_Log.csproj", "{E164E582-54AB-4FEC-A2B5-B422EB00D64E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Query_Log", "Query_Log\Query_Log.csproj", "{E164E582-54AB-4FEC-A2B5-B422EB00D64E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Global_Query_Filters", "Global_Query_Filters\Global_Query_Filters.csproj", "{468BF4F2-05B1-4DE1-B66E-0A08A86E18BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Global_Query_Filters", "Global_Query_Filters\Global_Query_Filters.csproj", "{468BF4F2-05B1-4DE1-B66E-0A08A86E18BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Owned_Entities_and_Table_Splitting", "Owned_Entities_and_Table_Splitting\Owned_Entities_and_Table_Splitting.csproj", "{A5216062-135C-4057-9037-2BAE38C36218}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Owned_Entities_and_Table_Splitting", "Owned_Entities_and_Table_Splitting\Owned_Entities_and_Table_Splitting.csproj", "{A5216062-135C-4057-9037-2BAE38C36218}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temporal_Tables", "Temporal_Tables\Temporal_Tables.csproj", "{5AB241DC-038F-4CC0-A0DE-ABE7F03C6726}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connection_Resiliency", "Connection_Resiliency\Connection_Resiliency.csproj", "{E77BB296-8F67-46D2-A70C-4BD4AF132835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data_Concurrency", "Data_Concurrency\Data_Concurrency.csproj", "{523909C2-3795-45D0-8293-301A7D14F437}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Value_Conversions", "Value_Conversions\Value_Conversions.csproj", "{563E9FE1-18EB-4719-8E26-24EBDAF14582}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,6 +263,22 @@ Global
 		{A5216062-135C-4057-9037-2BAE38C36218}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5216062-135C-4057-9037-2BAE38C36218}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5216062-135C-4057-9037-2BAE38C36218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AB241DC-038F-4CC0-A0DE-ABE7F03C6726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB241DC-038F-4CC0-A0DE-ABE7F03C6726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB241DC-038F-4CC0-A0DE-ABE7F03C6726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB241DC-038F-4CC0-A0DE-ABE7F03C6726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E77BB296-8F67-46D2-A70C-4BD4AF132835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E77BB296-8F67-46D2-A70C-4BD4AF132835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E77BB296-8F67-46D2-A70C-4BD4AF132835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E77BB296-8F67-46D2-A70C-4BD4AF132835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{523909C2-3795-45D0-8293-301A7D14F437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{523909C2-3795-45D0-8293-301A7D14F437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{523909C2-3795-45D0-8293-301A7D14F437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{523909C2-3795-45D0-8293-301A7D14F437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{563E9FE1-18EB-4719-8E26-24EBDAF14582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{563E9FE1-18EB-4719-8E26-24EBDAF14582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{563E9FE1-18EB-4719-8E26-24EBDAF14582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{563E9FE1-18EB-4719-8E26-24EBDAF14582}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
