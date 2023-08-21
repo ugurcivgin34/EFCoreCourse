@@ -134,17 +134,17 @@ public class ApplicationDbContext : DbContext
         #endregion
         #region ValueConverter Sınıfı
 
-        ValueConverter<Gender, string> converter = new(
-             //INSERT - UPDATE
-             g => g.ToString()
-             ,
-             //SELECT
-             g => (Gender)Enum.Parse(typeof(Gender), g)
-            );
+        //ValueConverter<Gender, string> converter = new(
+        //     //INSERT - UPDATE
+        //     g => g.ToString()
+        //     ,
+        //     //SELECT
+        //     g => (Gender)Enum.Parse(typeof(Gender), g)
+        //    );
 
-        modelBuilder.Entity<Person>()
-         .Property(p => p.Gender2)
-         .HasConversion(converter);
+        //modelBuilder.Entity<Person>()
+        // .Property(p => p.Gender2)
+        // .HasConversion(converter);
         #endregion
         #region Custom ValueConverter Sınıfı
         //modelBuilder.Entity<Person>()

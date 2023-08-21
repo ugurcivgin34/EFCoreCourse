@@ -85,13 +85,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Global_Query_Filters", "Glo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Owned_Entities_and_Table_Splitting", "Owned_Entities_and_Table_Splitting\Owned_Entities_and_Table_Splitting.csproj", "{A5216062-135C-4057-9037-2BAE38C36218}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temporal_Tables", "Temporal_Tables\Temporal_Tables.csproj", "{5AB241DC-038F-4CC0-A0DE-ABE7F03C6726}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Temporal_Tables", "Temporal_Tables\Temporal_Tables.csproj", "{5AB241DC-038F-4CC0-A0DE-ABE7F03C6726}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Connection_Resiliency", "Connection_Resiliency\Connection_Resiliency.csproj", "{E77BB296-8F67-46D2-A70C-4BD4AF132835}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Connection_Resiliency", "Connection_Resiliency\Connection_Resiliency.csproj", "{E77BB296-8F67-46D2-A70C-4BD4AF132835}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data_Concurrency", "Data_Concurrency\Data_Concurrency.csproj", "{523909C2-3795-45D0-8293-301A7D14F437}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data_Concurrency", "Data_Concurrency\Data_Concurrency.csproj", "{523909C2-3795-45D0-8293-301A7D14F437}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Value_Conversions", "Value_Conversions\Value_Conversions.csproj", "{563E9FE1-18EB-4719-8E26-24EBDAF14582}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Value_Conversions", "Value_Conversions\Value_Conversions.csproj", "{563E9FE1-18EB-4719-8E26-24EBDAF14582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transaction", "Transaction\Transaction.csproj", "{A4A8407D-5C12-4D42-A19D-35B0FC9F9164}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF_Core_In_Memory_Database", "EF_Core_In_Memory_Database\EF_Core_In_Memory_Database.csproj", "{F7F5612D-374F-45A5-9028-7170603AF368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF_Core_Efficient_Querying", "EF_Core_Efficient_Querying\EF_Core_Efficient_Querying.csproj", "{DFF0C162-30B8-4720-A254-0DFE04FA5214}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -279,6 +285,18 @@ Global
 		{563E9FE1-18EB-4719-8E26-24EBDAF14582}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{563E9FE1-18EB-4719-8E26-24EBDAF14582}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{563E9FE1-18EB-4719-8E26-24EBDAF14582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4A8407D-5C12-4D42-A19D-35B0FC9F9164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4A8407D-5C12-4D42-A19D-35B0FC9F9164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4A8407D-5C12-4D42-A19D-35B0FC9F9164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4A8407D-5C12-4D42-A19D-35B0FC9F9164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F5612D-374F-45A5-9028-7170603AF368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F5612D-374F-45A5-9028-7170603AF368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F5612D-374F-45A5-9028-7170603AF368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F5612D-374F-45A5-9028-7170603AF368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFF0C162-30B8-4720-A254-0DFE04FA5214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF0C162-30B8-4720-A254-0DFE04FA5214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF0C162-30B8-4720-A254-0DFE04FA5214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF0C162-30B8-4720-A254-0DFE04FA5214}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
